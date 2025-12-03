@@ -117,11 +117,12 @@ src/
 
 ### Untuk Admin
 1. Click login di sidebar (icon 🔐)
-2. Pergi ke Admin Dashboard (muncul di sidebar setelah login)
-3. Lihat semua peminjaman yang pending
-4. Click "Setuju" untuk approve peminjaman
-5. Peminjaman yang approved akan muncul di Kalender
-6. Click logout untuk keluar
+2. Masuk dengan email: `admin@uii.ac.id`, password: `admin123`
+3. Pergi ke Admin Dashboard (muncul di sidebar setelah login)
+4. Lihat semua peminjaman yang pending
+5. Click "Setuju" untuk approve peminjaman
+6. Peminjaman yang approved akan muncul di Kalender
+7. Click logout untuk keluar
 
 ## 📱 Responsivitas
 
@@ -151,6 +152,11 @@ Semua halaman telah dioptimalkan untuk:
 
 Untuk testing, gunakan data berikut:
 
+**Admin Login:**
+\`\`\`
+Email: admin@uii.ac.id
+Password: admin123
+\`\`\`
 
 **Contoh Peminjaman:**
 \`\`\`

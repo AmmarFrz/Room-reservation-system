@@ -69,7 +69,6 @@ class ApiService {
       const data = await this.fetchWithTimeout(`${this.baseUrl}/bookings`)
       return data?.data || data || []
     } catch (error) {
-      console.error("[v0] Error fetching bookings:", error)
       return []
     }
   }
@@ -87,7 +86,6 @@ class ApiService {
         data?.data || { id: Date.now().toString(), ...booking, status: "pending", createdAt: new Date().toISOString() }
       )
     } catch (error) {
-      console.error("[v0] Error creating booking:", error)
       return {
         id: Date.now().toString(),
         ...booking,

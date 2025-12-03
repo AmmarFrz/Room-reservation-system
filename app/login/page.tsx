@@ -27,8 +27,6 @@ export default function LoginPage() {
       return
     }
 
-    // Demo: Admin credentials
-    // Email: admin@uii.ac.id, Password: admin123
     if (email === "admin@uii.ac.id" && password === "admin123") {
       // Simpan session ke localStorage
       const sessionData = {
@@ -86,7 +84,7 @@ export default function LoginPage() {
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="admin@uii.ac.id"
+                placeholder="Masukkan email Anda"
                 className="w-full px-4 py-3 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary/50 bg-background text-foreground placeholder:text-muted-foreground transition"
                 disabled={isLoading}
               />
@@ -116,17 +114,6 @@ export default function LoginPage() {
                   {showPassword ? <EyeOff size={20} /> : <Eye size={20} />}
                 </button>
               </div>
-            </div>
-
-            {/* Demo Credentials Note */}
-            <div className="p-3 bg-secondary/10 border border-secondary/20 rounded-lg">
-              <p className="text-xs text-muted-foreground">
-                <span className="font-semibold text-foreground">Demo Login:</span>
-                <br />
-                Email: <code className="bg-muted px-2 py-1 rounded text-xs">admin@uii.ac.id</code>
-                <br />
-                Password: <code className="bg-muted px-2 py-1 rounded text-xs">admin123</code>
-              </p>
             </div>
 
             {/* Submit Button */}

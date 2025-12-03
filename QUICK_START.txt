@@ -1,0 +1,86 @@
+========================================
+SISTEM PEMINJAMAN RUANGAN UII
+Quick Start Guide
+========================================
+
+LANGKAH 1: DOWNLOAD & EXTRACT
+- Download project dari v0 atau clone dari GitHub
+- Extract ke folder yang diinginkan
+- Buka terminal/command prompt di folder tersebut
+
+LANGKAH 2: INSTALL DEPENDENCIES
+$ npm install
+
+LANGKAH 3: SETUP ENVIRONMENT (OPSIONAL)
+- Copy file .env.local.example ke .env.local
+- Jika tidak perlu ubah, biarkan default
+
+LANGKAH 4: RUN PROJECT
+$ npm run dev
+
+LANGKAH 5: BUKA DI BROWSER
+Pergi ke: http://localhost:3000
+
+========================================
+LOGIN UNTUK ADMIN
+========================================
+Email    : admin@uii.ac.id
+Password : admin123
+
+========================================
+FITUR UTAMA
+========================================
+1. HOME (/)
+   - Halaman utama dengan informasi sistem
+
+2. KALENDER (/calendar)
+   - Lihat jadwal ruangan
+   - Filter berdasarkan fakultas dan lantai
+
+3. FORM PEMINJAMAN (/booking)
+   - Buat peminjaman ruangan baru
+   - Data otomatis tersimpan
+
+4. ADMIN DASHBOARD (/admin)
+   - Lihat semua peminjaman
+   - Approve atau Reject peminjaman
+   - Hanya bisa diakses setelah login admin
+
+========================================
+ALUR PENGGUNAAN
+========================================
+USER:
+1. Lihat Kalender untuk cek jadwal ruangan
+2. Ke Form Peminjaman, isi data, dan submit
+3. Data muncul di Admin Dashboard (status: Pending)
+
+ADMIN:
+1. Login dengan email & password admin
+2. Buka Admin Dashboard
+3. Review semua peminjaman
+4. Click "Setuju" untuk approve
+5. Peminjaman yang approved muncul di Kalender
+
+========================================
+TROUBLESHOOTING
+========================================
+Q: Admin link tidak muncul di sidebar?
+A: Refresh browser atau clear cache
+
+Q: Data tidak tersimpan?
+A: Pastikan localStorage tidak di-disable di browser
+
+Q: Error "Failed to fetch"?
+A: Normal jika tidak ada backend API
+   Sistem akan menggunakan localStorage
+
+========================================
+DOKUMENTASI LENGKAP
+========================================
+- README.md - Dokumentasi lengkap
+- docs/SETUP_GUIDE.md - Setup guide detail
+- docs/API_INTEGRATION.md - API integration guide
+
+========================================
+Selamat menggunakan! 🎉
+========================================

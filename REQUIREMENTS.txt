@@ -1,0 +1,32 @@
+========================================
+SYSTEM REQUIREMENTS
+========================================
+
+Node.js: v18 atau lebih baru
+npm: v9 atau lebih baru
+Browser: Chrome, Firefox, Safari, atau Edge (terbaru)
+
+Untuk check versi Node.js dan npm:
+$ node --version
+$ npm --version
+
+========================================
+REKOMENDASI INSTALASI
+========================================
+
+1. Download Node.js dari: https://nodejs.org/
+   - Pilih LTS version
+   - Instalasi sesuai OS Anda
+
+2. Pastikan npm juga terinstall:
+   $ npm --version
+
+3. Clone atau download project ini
+
+4. Install dependencies:
+   $ npm install
+
+5. Run development server:
+   $ npm run dev
+
+========================================

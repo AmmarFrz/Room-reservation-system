@@ -151,11 +151,6 @@ Semua halaman telah dioptimalkan untuk:
 
 Untuk testing, gunakan data berikut:
 
-**Admin Login:**
-\`\`\`
-Email: admin@uii.ac.id
-Password: admin123
-\`\`\`
 
 **Contoh Peminjaman:**
 \`\`\`

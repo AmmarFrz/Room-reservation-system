@@ -31,9 +31,6 @@ Sistem manajemen peminjaman ruangan untuk Universitas Islam Indonesia.
 
 ### 4. **Login Admin**
 - Halaman login untuk admin
-- Demo credentials:
-  - Email: `admin@uii.ac.id`
-  - Password: `admin123`
 - Session tersimpan di localStorage
 
 **Path:** `/login`
